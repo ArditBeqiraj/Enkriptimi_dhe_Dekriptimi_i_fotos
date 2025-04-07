@@ -10,7 +10,6 @@ from Cryptodome.Util.Padding import pad, unpad
 from Cryptodome.Random import get_random_bytes
 from tkinter import filedialog, messagebox
 
-
 class TripleDESImageEncryptor:
     def __init__(self, master):
         self.master = master
